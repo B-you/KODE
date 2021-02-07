@@ -15,6 +15,22 @@
 		040A5DB425D0791000CDFB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A5DB225D0791000CDFB16 /* LaunchScreen.storyboard */; };
 		040A5DBF25D0791000CDFB16 /* KODETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DBE25D0791000CDFB16 /* KODETests.swift */; };
 		040A5DCA25D0791000CDFB16 /* KODEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DC925D0791000CDFB16 /* KODEUITests.swift */; };
+		040A5DDE25D07A1900CDFB16 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DDD25D07A1900CDFB16 /* WeatherModel.swift */; };
+		040A5DE325D07A3C00CDFB16 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DE225D07A3C00CDFB16 /* WeatherAPI.swift */; };
+		040A5DE825D07A7C00CDFB16 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DE725D07A7C00CDFB16 /* WeatherViewController.swift */; };
+		040A5DED25D07AB600CDFB16 /* APiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DEC25D07AB600CDFB16 /* APiModel.swift */; };
+		040A5DF225D07AD700CDFB16 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DF125D07AD700CDFB16 /* CountryAPI.swift */; };
+		040A5DF725D07B0900CDFB16 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DF625D07B0900CDFB16 /* NotificationViewController.swift */; };
+		040A5DFC25D07B4000CDFB16 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5DFB25D07B3F00CDFB16 /* WeatherTableViewCell.swift */; };
+		040A5E0125D07B7600CDFB16 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E0025D07B7600CDFB16 /* CountryListViewController.swift */; };
+		040A5E0625D07BA800CDFB16 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E0525D07BA800CDFB16 /* PurchaseViewController.swift */; };
+		040A5E0B25D07BEA00CDFB16 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E0A25D07BEA00CDFB16 /* TicketsViewController.swift */; };
+		040A5E1025D07C3600CDFB16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E0F25D07C3600CDFB16 /* ProfileViewController.swift */; };
+		040A5E1525D07C4300CDFB16 /* OthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E1425D07C4300CDFB16 /* OthersViewController.swift */; };
+		040A5E1A25D07C5300CDFB16 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A5E1925D07C5300CDFB16 /* RegistrationViewController.swift */; };
+		A0872BB1970602C36FBC0B14 /* Pods_KODE_KODEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9FBC5C60574FA4831D4427 /* Pods_KODE_KODEUITests.framework */; };
+		A1F20B60788567EAF20947B0 /* Pods_KODE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DB590508F509C6081D54A2 /* Pods_KODE.framework */; };
+		C7084A018545CD9411FFED8A /* Pods_KODETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F009ECFDEE361DAAC002182 /* Pods_KODETests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,28 @@
 		040A5DC525D0791000CDFB16 /* KODEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KODEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040A5DC925D0791000CDFB16 /* KODEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KODEUITests.swift; sourceTree = "<group>"; };
 		040A5DCB25D0791000CDFB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040A5DDD25D07A1900CDFB16 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		040A5DE225D07A3C00CDFB16 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		040A5DE725D07A7C00CDFB16 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		040A5DEC25D07AB600CDFB16 /* APiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiModel.swift; sourceTree = "<group>"; };
+		040A5DF125D07AD700CDFB16 /* CountryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
+		040A5DF625D07B0900CDFB16 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		040A5DFB25D07B3F00CDFB16 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		040A5E0025D07B7600CDFB16 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		040A5E0525D07BA800CDFB16 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		040A5E0A25D07BEA00CDFB16 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		040A5E0F25D07C3600CDFB16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		040A5E1425D07C4300CDFB16 /* OthersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersViewController.swift; sourceTree = "<group>"; };
+		040A5E1925D07C5300CDFB16 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		11E98D8D88D837AD35FF3057 /* Pods-KODE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODE.debug.xcconfig"; path = "Target Support Files/Pods-KODE/Pods-KODE.debug.xcconfig"; sourceTree = "<group>"; };
+		13DB590508F509C6081D54A2 /* Pods_KODE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KODE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9FBC5C60574FA4831D4427 /* Pods_KODE_KODEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KODE_KODEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6CC66F4B736E5A48876CD8 /* Pods-KODE-KODEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODE-KODEUITests.release.xcconfig"; path = "Target Support Files/Pods-KODE-KODEUITests/Pods-KODE-KODEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F009ECFDEE361DAAC002182 /* Pods_KODETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KODETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768641C6FB32B7C69ABF221D /* Pods-KODETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODETests.release.xcconfig"; path = "Target Support Files/Pods-KODETests/Pods-KODETests.release.xcconfig"; sourceTree = "<group>"; };
+		958CA31F5DEAA29A3BBF2DEF /* Pods-KODE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODE.release.xcconfig"; path = "Target Support Files/Pods-KODE/Pods-KODE.release.xcconfig"; sourceTree = "<group>"; };
+		D752DBBFA867F71109A3B0BB /* Pods-KODE-KODEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODE-KODEUITests.debug.xcconfig"; path = "Target Support Files/Pods-KODE-KODEUITests/Pods-KODE-KODEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB25F9AB523C2E5CB972D4C /* Pods-KODETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODETests.debug.xcconfig"; path = "Target Support Files/Pods-KODETests/Pods-KODETests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F20B60788567EAF20947B0 /* Pods_KODE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7084A018545CD9411FFED8A /* Pods_KODETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0872BB1970602C36FBC0B14 /* Pods_KODE_KODEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +124,8 @@
 				040A5DBD25D0791000CDFB16 /* KODETests */,
 				040A5DC825D0791000CDFB16 /* KODEUITests */,
 				040A5DA525D0790B00CDFB16 /* Products */,
+				1AF123D7B85FC4DC4D04BEE6 /* Pods */,
+				97929BC795852521399675A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +146,20 @@
 				040A5DA925D0790B00CDFB16 /* SceneDelegate.swift */,
 				040A5DAB25D0790B00CDFB16 /* ViewController.swift */,
 				040A5DAD25D0790B00CDFB16 /* Main.storyboard */,
+				040A5E0F25D07C3600CDFB16 /* ProfileViewController.swift */,
+				040A5E1425D07C4300CDFB16 /* OthersViewController.swift */,
+				040A5E1925D07C5300CDFB16 /* RegistrationViewController.swift */,
+				040A5E0A25D07BEA00CDFB16 /* TicketsViewController.swift */,
+				040A5E0525D07BA800CDFB16 /* PurchaseViewController.swift */,
+				040A5E0025D07B7600CDFB16 /* CountryListViewController.swift */,
+				040A5DFB25D07B3F00CDFB16 /* WeatherTableViewCell.swift */,
+				040A5DEC25D07AB600CDFB16 /* APiModel.swift */,
+				040A5DF125D07AD700CDFB16 /* CountryAPI.swift */,
+				040A5DF625D07B0900CDFB16 /* NotificationViewController.swift */,
+				040A5DE725D07A7C00CDFB16 /* WeatherViewController.swift */,
 				040A5DB025D0791000CDFB16 /* Assets.xcassets */,
+				040A5DDD25D07A1900CDFB16 /* WeatherModel.swift */,
+				040A5DE225D07A3C00CDFB16 /* WeatherAPI.swift */,
 				040A5DB225D0791000CDFB16 /* LaunchScreen.storyboard */,
 				040A5DB525D0791000CDFB16 /* Info.plist */,
 			);
@@ -128,6 +184,30 @@
 			path = KODEUITests;
 			sourceTree = "<group>";
 		};
+		1AF123D7B85FC4DC4D04BEE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E98D8D88D837AD35FF3057 /* Pods-KODE.debug.xcconfig */,
+				958CA31F5DEAA29A3BBF2DEF /* Pods-KODE.release.xcconfig */,
+				D752DBBFA867F71109A3B0BB /* Pods-KODE-KODEUITests.debug.xcconfig */,
+				4C6CC66F4B736E5A48876CD8 /* Pods-KODE-KODEUITests.release.xcconfig */,
+				EAB25F9AB523C2E5CB972D4C /* Pods-KODETests.debug.xcconfig */,
+				768641C6FB32B7C69ABF221D /* Pods-KODETests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97929BC795852521399675A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13DB590508F509C6081D54A2 /* Pods_KODE.framework */,
+				1B9FBC5C60574FA4831D4427 /* Pods_KODE_KODEUITests.framework */,
+				5F009ECFDEE361DAAC002182 /* Pods_KODETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040A5DCE25D0791000CDFB16 /* Build configuration list for PBXNativeTarget "KODE" */;
 			buildPhases = (
+				43B0E02CAB06E41DCC692DAF /* [CP] Check Pods Manifest.lock */,
 				040A5DA025D0790B00CDFB16 /* Sources */,
 				040A5DA125D0790B00CDFB16 /* Frameworks */,
 				040A5DA225D0790B00CDFB16 /* Resources */,
+				67FAC471CCEF7F58510E6EC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040A5DD125D0791000CDFB16 /* Build configuration list for PBXNativeTarget "KODETests" */;
 			buildPhases = (
+				8956A9C1683CB1E0481ED745 /* [CP] Check Pods Manifest.lock */,
 				040A5DB625D0791000CDFB16 /* Sources */,
 				040A5DB725D0791000CDFB16 /* Frameworks */,
 				040A5DB825D0791000CDFB16 /* Resources */,
@@ -170,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040A5DD425D0791000CDFB16 /* Build configuration list for PBXNativeTarget "KODEUITests" */;
 			buildPhases = (
+				FACB1CB6D8492FC7A8B23D13 /* [CP] Check Pods Manifest.lock */,
 				040A5DC125D0791000CDFB16 /* Sources */,
 				040A5DC225D0791000CDFB16 /* Frameworks */,
 				040A5DC325D0791000CDFB16 /* Resources */,
+				D8901D6B5AB5FAB63E42DE16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +338,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43B0E02CAB06E41DCC692DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KODE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67FAC471CCEF7F58510E6EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KODE/Pods-KODE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KODE/Pods-KODE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KODE/Pods-KODE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8956A9C1683CB1E0481ED745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KODETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8901D6B5AB5FAB63E42DE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KODE-KODEUITests/Pods-KODE-KODEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KODE-KODEUITests/Pods-KODE-KODEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KODE-KODEUITests/Pods-KODE-KODEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FACB1CB6D8492FC7A8B23D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KODE-KODEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040A5DA025D0790B00CDFB16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A5DFC25D07B4000CDFB16 /* WeatherTableViewCell.swift in Sources */,
 				040A5DAC25D0790B00CDFB16 /* ViewController.swift in Sources */,
+				040A5DF225D07AD700CDFB16 /* CountryAPI.swift in Sources */,
+				040A5DE825D07A7C00CDFB16 /* WeatherViewController.swift in Sources */,
+				040A5E1025D07C3600CDFB16 /* ProfileViewController.swift in Sources */,
+				040A5E1525D07C4300CDFB16 /* OthersViewController.swift in Sources */,
 				040A5DA825D0790B00CDFB16 /* AppDelegate.swift in Sources */,
+				040A5E0625D07BA800CDFB16 /* PurchaseViewController.swift in Sources */,
+				040A5DE325D07A3C00CDFB16 /* WeatherAPI.swift in Sources */,
+				040A5E0125D07B7600CDFB16 /* CountryListViewController.swift in Sources */,
+				040A5E1A25D07C5300CDFB16 /* RegistrationViewController.swift in Sources */,
+				040A5DF725D07B0900CDFB16 /* NotificationViewController.swift in Sources */,
+				040A5DDE25D07A1900CDFB16 /* WeatherModel.swift in Sources */,
+				040A5DED25D07AB600CDFB16 /* APiModel.swift in Sources */,
 				040A5DAA25D0790B00CDFB16 /* SceneDelegate.swift in Sources */,
+				040A5E0B25D07BEA00CDFB16 /* TicketsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +634,7 @@
 		};
 		040A5DCF25D0791000CDFB16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E98D8D88D837AD35FF3057 /* Pods-KODE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +654,7 @@
 		};
 		040A5DD025D0791000CDFB16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958CA31F5DEAA29A3BBF2DEF /* Pods-KODE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +674,7 @@
 		};
 		040A5DD225D0791000CDFB16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB25F9AB523C2E5CB972D4C /* Pods-KODETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +697,7 @@
 		};
 		040A5DD325D0791000CDFB16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768641C6FB32B7C69ABF221D /* Pods-KODETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +720,7 @@
 		};
 		040A5DD525D0791000CDFB16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D752DBBFA867F71109A3B0BB /* Pods-KODE-KODEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +741,7 @@
 		};
 		040A5DD625D0791000CDFB16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6CC66F4B736E5A48876CD8 /* Pods-KODE-KODEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
